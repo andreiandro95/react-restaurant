@@ -1,0 +1,78 @@
+.make-reservation{
+    margin: 90px 0 20px;
+    h3{
+        text-align: left;
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .form-input{
+        margin-top: 20px;
+        padding: 0 20px;
+        div{
+            margin-bottom: 10px;
+        }
+        label{
+            display: block;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            border: 1px solid #808080;
+            font-size: 12px;
+        }
+        button{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #d3ab55;
+            color: white;
+            border: 1px solid #d3ab55;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            &:hover{
+                background-color: white;
+                color: #d3ab55;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .make-reservation{
+        .form-input{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            .submit-field{
+                grid-column: span 2;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .make-reservation{
+        .form-input{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+            .submit-field{
+                button{
+                    display: inline;
+                    width: 40%;
+                }
+            }
+        }
+    }
+}

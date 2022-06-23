@@ -1,0 +1,77 @@
+.menu {
+  margin-top: 80px;
+}
+
+.menu .starters, .menu .lunch, .menu .dinner, .menu .dessert {
+  padding: 10px;
+}
+
+.menu .starters .starter-title, .menu .starters .lunch-title, .menu .starters .dinner-title, .menu .starters .dessert-title, .menu .lunch .starter-title, .menu .lunch .lunch-title, .menu .lunch .dinner-title, .menu .lunch .dessert-title, .menu .dinner .starter-title, .menu .dinner .lunch-title, .menu .dinner .dinner-title, .menu .dinner .dessert-title, .menu .dessert .starter-title, .menu .dessert .lunch-title, .menu .dessert .dinner-title, .menu .dessert .dessert-title {
+  text-align: left;
+}
+
+.menu .starters .starters-dishes div, .menu .starters .lunch-dishes div, .menu .starters .dinner-dishes div, .menu .starters .dessert-dishes div, .menu .lunch .starters-dishes div, .menu .lunch .lunch-dishes div, .menu .lunch .dinner-dishes div, .menu .lunch .dessert-dishes div, .menu .dinner .starters-dishes div, .menu .dinner .lunch-dishes div, .menu .dinner .dinner-dishes div, .menu .dinner .dessert-dishes div, .menu .dessert .starters-dishes div, .menu .dessert .lunch-dishes div, .menu .dessert .dinner-dishes div, .menu .dessert .dessert-dishes div {
+  border: 1px solid #d3ab55;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.menu .starters .starters-dishes div img, .menu .starters .lunch-dishes div img, .menu .starters .dinner-dishes div img, .menu .starters .dessert-dishes div img, .menu .lunch .starters-dishes div img, .menu .lunch .lunch-dishes div img, .menu .lunch .dinner-dishes div img, .menu .lunch .dessert-dishes div img, .menu .dinner .starters-dishes div img, .menu .dinner .lunch-dishes div img, .menu .dinner .dinner-dishes div img, .menu .dinner .dessert-dishes div img, .menu .dessert .starters-dishes div img, .menu .dessert .lunch-dishes div img, .menu .dessert .dinner-dishes div img, .menu .dessert .dessert-dishes div img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+}
+
+.menu .starters .starters-dishes div .text, .menu .starters .lunch-dishes div .text, .menu .starters .dinner-dishes div .text, .menu .starters .dessert-dishes div .text, .menu .lunch .starters-dishes div .text, .menu .lunch .lunch-dishes div .text, .menu .lunch .dinner-dishes div .text, .menu .lunch .dessert-dishes div .text, .menu .dinner .starters-dishes div .text, .menu .dinner .lunch-dishes div .text, .menu .dinner .dinner-dishes div .text, .menu .dinner .dessert-dishes div .text, .menu .dessert .starters-dishes div .text, .menu .dessert .lunch-dishes div .text, .menu .dessert .dinner-dishes div .text, .menu .dessert .dessert-dishes div .text {
+  border: none;
+}
+
+.menu .starters .starters-dishes div .text .title-price, .menu .starters .lunch-dishes div .text .title-price, .menu .starters .dinner-dishes div .text .title-price, .menu .starters .dessert-dishes div .text .title-price, .menu .lunch .starters-dishes div .text .title-price, .menu .lunch .lunch-dishes div .text .title-price, .menu .lunch .dinner-dishes div .text .title-price, .menu .lunch .dessert-dishes div .text .title-price, .menu .dinner .starters-dishes div .text .title-price, .menu .dinner .lunch-dishes div .text .title-price, .menu .dinner .dinner-dishes div .text .title-price, .menu .dinner .dessert-dishes div .text .title-price, .menu .dessert .starters-dishes div .text .title-price, .menu .dessert .lunch-dishes div .text .title-price, .menu .dessert .dinner-dishes div .text .title-price, .menu .dessert .dessert-dishes div .text .title-price {
+  border: none;
+}
+
+.menu .starters .starters-dishes div .text .title-price p, .menu .starters .lunch-dishes div .text .title-price p, .menu .starters .dinner-dishes div .text .title-price p, .menu .starters .dessert-dishes div .text .title-price p, .menu .lunch .starters-dishes div .text .title-price p, .menu .lunch .lunch-dishes div .text .title-price p, .menu .lunch .dinner-dishes div .text .title-price p, .menu .lunch .dessert-dishes div .text .title-price p, .menu .dinner .starters-dishes div .text .title-price p, .menu .dinner .lunch-dishes div .text .title-price p, .menu .dinner .dinner-dishes div .text .title-price p, .menu .dinner .dessert-dishes div .text .title-price p, .menu .dessert .starters-dishes div .text .title-price p, .menu .dessert .lunch-dishes div .text .title-price p, .menu .dessert .dinner-dishes div .text .title-price p, .menu .dessert .dessert-dishes div .text .title-price p {
+  margin: 0;
+}
+
+.menu .starters .starters-dishes div .text .title-price p:first-child, .menu .starters .lunch-dishes div .text .title-price p:first-child, .menu .starters .dinner-dishes div .text .title-price p:first-child, .menu .starters .dessert-dishes div .text .title-price p:first-child, .menu .lunch .starters-dishes div .text .title-price p:first-child, .menu .lunch .lunch-dishes div .text .title-price p:first-child, .menu .lunch .dinner-dishes div .text .title-price p:first-child, .menu .lunch .dessert-dishes div .text .title-price p:first-child, .menu .dinner .starters-dishes div .text .title-price p:first-child, .menu .dinner .lunch-dishes div .text .title-price p:first-child, .menu .dinner .dinner-dishes div .text .title-price p:first-child, .menu .dinner .dessert-dishes div .text .title-price p:first-child, .menu .dessert .starters-dishes div .text .title-price p:first-child, .menu .dessert .lunch-dishes div .text .title-price p:first-child, .menu .dessert .dinner-dishes div .text .title-price p:first-child, .menu .dessert .dessert-dishes div .text .title-price p:first-child {
+  font-weight: bold;
+}
+
+.menu .starters .starters-dishes div .text p, .menu .starters .lunch-dishes div .text p, .menu .starters .dinner-dishes div .text p, .menu .starters .dessert-dishes div .text p, .menu .lunch .starters-dishes div .text p, .menu .lunch .lunch-dishes div .text p, .menu .lunch .dinner-dishes div .text p, .menu .lunch .dessert-dishes div .text p, .menu .dinner .starters-dishes div .text p, .menu .dinner .lunch-dishes div .text p, .menu .dinner .dinner-dishes div .text p, .menu .dinner .dessert-dishes div .text p, .menu .dessert .starters-dishes div .text p, .menu .dessert .lunch-dishes div .text p, .menu .dessert .dinner-dishes div .text p, .menu .dessert .dessert-dishes div .text p {
+  margin: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .menu .starters .starters-dishes, .menu .starters .lunch-dishes, .menu .starters .dinner-dishes, .menu .starters .dessert-dishes, .menu .lunch .starters-dishes, .menu .lunch .lunch-dishes, .menu .lunch .dinner-dishes, .menu .lunch .dessert-dishes, .menu .dinner .starters-dishes, .menu .dinner .lunch-dishes, .menu .dinner .dinner-dishes, .menu .dinner .dessert-dishes, .menu .dessert .starters-dishes, .menu .dessert .lunch-dishes, .menu .dessert .dinner-dishes, .menu .dessert .dessert-dishes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .menu .starters .starters-dishes, .menu .starters .lunch-dishes, .menu .starters .dinner-dishes, .menu .starters .dessert-dishes, .menu .lunch .starters-dishes, .menu .lunch .lunch-dishes, .menu .lunch .dinner-dishes, .menu .lunch .dessert-dishes, .menu .dinner .starters-dishes, .menu .dinner .lunch-dishes, .menu .dinner .dinner-dishes, .menu .dinner .dessert-dishes, .menu .dessert .starters-dishes, .menu .dessert .lunch-dishes, .menu .dessert .dinner-dishes, .menu .dessert .dessert-dishes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .menu .starters .starters-dishes, .menu .starters .lunch-dishes, .menu .starters .dinner-dishes, .menu .starters .dessert-dishes, .menu .lunch .starters-dishes, .menu .lunch .lunch-dishes, .menu .lunch .dinner-dishes, .menu .lunch .dessert-dishes, .menu .dinner .starters-dishes, .menu .dinner .lunch-dishes, .menu .dinner .dinner-dishes, .menu .dinner .dessert-dishes, .menu .dessert .starters-dishes, .menu .dessert .lunch-dishes, .menu .dessert .dinner-dishes, .menu .dessert .dessert-dishes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+}
+/*# sourceMappingURL=menu.css.map */

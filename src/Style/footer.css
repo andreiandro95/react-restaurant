@@ -1,0 +1,109 @@
+.footer {
+  width: 100%;
+  background-color: #646464;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+}
+
+.footer .presentation-restaurant {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.footer .presentation-restaurant .image {
+  width: 35%;
+  margin: auto;
+}
+
+.footer .presentation-restaurant .image img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.footer .presentation-restaurant .text {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+}
+
+.footer .first-address, .footer .second-address {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin: auto;
+}
+
+.footer .first-address .name, .footer .second-address .name {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer .first-address .name h3, .footer .second-address .name h3 {
+  margin: 0;
+}
+
+.footer .first-address .line, .footer .second-address .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .first-address .line .color-line, .footer .second-address .line .color-line {
+  width: 7vw;
+  height: 1vh;
+  background-color: #d3ab55;
+  margin: 10px;
+}
+
+.footer .first-address .adress, .footer .second-address .adress {
+  color: white;
+  margin: 0;
+}
+
+@media screen and (min-width: 1100px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .presentation-restaurant, .footer .first-address, .footer .second-address {
+    width: 30%;
+    margin: 0;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .presentation-restaurant .adress, .footer .first-address .adress, .footer .second-address .adress {
+    width: 55%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

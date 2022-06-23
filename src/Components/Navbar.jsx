@@ -24,10 +24,10 @@ function Navbar() {
                 {openMenu ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
             </div>
             <div className={`navigation ${openMenu ? "show" : "hide"}`}>
-                <Link to="/">Homepage</Link>
-                <Link to="/menu">Menu</Link>
-                <Link to="/gallery">Gallery</Link>
-                <Link to="/reservation">Reservation</Link>
+                <Link to="/react-restaurant/">Homepage</Link>
+                <Link to="/react-restaurant/menu">Menu</Link>
+                <Link to="/react-restaurant/gallery">Gallery</Link>
+                <Link to="/react-restaurant/reservation">Reservation</Link>
             </div>
         </nav>
     );
